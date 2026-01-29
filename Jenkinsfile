@@ -11,7 +11,7 @@ pipeline {
     }
 
     post {
-        success {
+        failed {
             echo 'Pipeline completed '
         }
     }
